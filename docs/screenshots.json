@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The DesktopVeil menu bar menu: hide desktop icons in one click, see the global hotkey, and set an auto-reveal timer.","alt":"DesktopVeil menu bar menu with Hide Desktop Icons option"},
+  {"file":"02-settings.png","caption":"Settings let you record the toggle hotkey, choose the hiding method, pick which displays to cover, and auto-hide while screen-sharing apps run.","alt":"DesktopVeil Settings window"},
+  {"file":"03-icons-hidden.png","caption":"With icons hidden, the menu shows the current state and offers Show Desktop Icons to bring them back.","alt":"DesktopVeil menu in the Icons Hidden state"}
+]

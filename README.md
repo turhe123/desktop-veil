@@ -1,5 +1,7 @@
 # DesktopVeil
 
+**🌐 Website:** [turhe123.github.io/desktop-veil](https://turhe123.github.io/desktop-veil/)
+
 Hide every desktop icon with one click or hotkey for clean screenshots, recordings and screen sharing.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,17 @@ DesktopVeil is a free, open-source, 100% native, backend-free alternative to pai
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="DesktopVeil menu bar menu with Hide Desktop Icons option" width="720"></p>
+
+<p align="center"><em>The DesktopVeil menu bar menu: hide desktop icons in one click, see the global hotkey, and set an auto-reveal timer.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="DesktopVeil Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you record the toggle hotkey, choose the hiding method, pick which displays to cover, and auto-hide while screen-sharing apps run.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-icons-hidden.png" alt="DesktopVeil menu in the Icons Hidden state" width="560"></p>
+
+<p align="center"><em>With icons hidden, the menu shows the current state and offers Show Desktop Icons to bring them back.</em></p>
 
 ## Install
 

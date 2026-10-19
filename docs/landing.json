@@ -1,0 +1,60 @@
+{
+  "seo_title": "Hide desktop icons on macOS",
+  "seo_description": "DesktopVeil is a free, open-source menu bar app that hides every desktop icon with one click or a global hotkey. No permissions, no network, macOS 14+.",
+  "hero_title_line1": "A clean desktop,",
+  "hero_title_accent": "one keystroke away.",
+  "hero_sub": "DesktopVeil hides every desktop icon from your menu bar for clean screenshots, recordings and screen sharing. Click the icon or press the hotkey, Control-Option-Command-D by default.",
+  "features_title": "Small app. Tidy desktop.",
+  "features_sub": "Everything you need to hide desktop clutter on demand, and nothing that needs your data or permissions.",
+  "features": [
+    {
+      "icon": "eye",
+      "title": "Wallpaper cover, Finder untouched",
+      "desc": "A borderless window per display draws your current wallpaper over the icons. It follows fill, fit, stretch and center scaling, and needs no permissions."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Global hotkey toggle",
+      "desc": "Toggle from anywhere with Control-Option-Command-D, or record your own shortcut in Settings. You can also clear it."
+    },
+    {
+      "icon": "display",
+      "title": "Per-display control",
+      "desc": "Choose which displays get covered. Covers are rebuilt when displays or Spaces change, and the wallpaper is re-read every minute for rotating wallpapers."
+    },
+    {
+      "icon": "clock",
+      "title": "Auto-reveal timer",
+      "desc": "Have your icons come back by themselves after 5 minutes, 15 minutes or 1 hour, so you never forget they are hidden."
+    },
+    {
+      "icon": "window",
+      "title": "Hide while screen sharing",
+      "desc": "Keep an editable list of app bundle identifiers, such as Zoom or a screen recorder. Icons hide when one launches and return when the last one quits."
+    },
+    {
+      "icon": "sliders",
+      "title": "Two methods, safe recovery",
+      "desc": "Switch to the Finder preference method if you prefer it. If the app quits uncleanly in that mode, the next launch offers to restore your icons."
+    }
+  ],
+  "permissions_step": "No special permissions are required; if your wallpaper is in a protected folder, macOS may ask for file access once.",
+  "faq": [
+    {
+      "q": "Is DesktopVeil really free and open source?",
+      "a": "Yes. It is released under the MIT license, with no accounts, no analytics and no network access. If it saves you time, there is an optional Support button in the app."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None of the privacy permissions. It does not use Accessibility, Screen Recording, Microphone or Camera. The hotkey uses a Carbon API that needs no Accessibility access, and the cover only reads your wallpaper path through NSWorkspace."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Settings are kept locally in macOS user defaults on your Mac. Nothing is sent anywhere. In Finder mode, the app also changes Finder's own CreateDesktop preference and restores it when you quit."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to run it, or build it from source with Xcode and XcodeGen."
+    }
+  ]
+}
